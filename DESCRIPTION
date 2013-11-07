@@ -1,0 +1,10 @@
+Package: Illumina450kMethylationTitration
+Type: Package
+Title: Data package containing several samples with varying methylation levels
+Version: 1.0
+Date: 2013-11-07
+Author: Tim Triche, Jr. and Sean Davis
+Maintainer: Sean Davis <sdavis2@mail.nih.gov>
+Description: This data package contains data in raw .iDAT form from several samples run on the Illumina 450k methylation platform.  The titration samples were prepared by treating a "methylated" standard pool of commercially purchased sperm samples with m.SssI, three times, and mock-treating an "unmethylated" standard pool with vehicle, three times.  Then the samples were titrated to 20%, 35%, 60%, and 85% "methylated" (m.SssI-treated).  Three samples from peripheral blood lymphocytes are also included.  
+Suggests: methylumi
+License: MIT
